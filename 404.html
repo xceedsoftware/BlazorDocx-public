@@ -1,9 +1,56 @@
-﻿<!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-    <meta http-equiv="refresh" content="0;url=/BlazorDocx-public/">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BlazorDocx</title>
+    <base href="/BlazorDocx-public/" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <link href="_content/MudBlazor/MudBlazor.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="icon" type="image/png" href="logox.ico" />
+    <link href="BlazorDocx.styles.css" rel="stylesheet" />
+    <script>
+        window.onload = () => {
+            if (localStorage.getItem('isDark') === undefined) {
+                localStorage.setItem('isDark', isDark);
+            }
+        }
+    </script>
+    <style>
+        * {
+            font-family: system-font, Quicksand, 'Segoe UI', serif !important;
+        }
+
+        html {
+            overflow: overlay;
+        }
+
+        body.dark {
+            background-color: #32333dff
+        }
+    </style>
 </head>
-<body>
-    <p>Redirecting...</p>
+
+<body style="height:100%; width:100%">
+    <div id="app">
+        <svg class="loading-progress">
+            <circle r="40%" cx="50%" cy="50%" />
+            <circle r="40%" cx="50%" cy="50%" />
+        </svg>
+        <div class="loading-progress-text"></div>
+    </div>
+
+    <div id="blazor-error-ui">
+        An unhandled error has occurred.
+        <a href="." class="reload">Reload</a>
+        <span class="dismiss">🗙</span>
+    </div>
+    <script src="_framework/blazor.webassembly.js"></script>
+    <script src="_content/MudBlazor/MudBlazor.min.js"></script>
+    <script src="app/interop.js"></script>
 </body>
+
 </html>
+

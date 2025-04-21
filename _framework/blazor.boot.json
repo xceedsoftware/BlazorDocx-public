@@ -1,9 +1,9 @@
 {
   "mainAssemblyName": "BlazorDocx",
   "resources": {
-    "hash": "sha256-k/g4fMW6O0+c+CGAAZD95MdIdXauGliC8Jh8IND3Y7w=",
+    "hash": "sha256-cObLloQR579Ao4969ELD0HhoY95fGpihq3FmZsEeFNE=",
     "fingerprinting": {
-      "BlazorDocx.nxgfnx1cbm.wasm": "BlazorDocx.wasm",
+      "BlazorDocx.fxqwce8s44.wasm": "BlazorDocx.wasm",
       "Blazored.LocalStorage.12n6dz54qr.wasm": "Blazored.LocalStorage.wasm",
       "FluentValidation.fvee6lf8f0.wasm": "FluentValidation.wasm",
       "Microsoft.AspNetCore.Components.Forms.2xyes3k065.wasm": "Microsoft.AspNetCore.Components.Forms.wasm",
@@ -91,8 +91,8 @@
       "Xceed.PDF.NET.v3w9g94ps0.wasm": "Xceed.PDF.NET.wasm",
       "Xceed.Words.NET.8j3z4we5xn.wasm": "Xceed.Words.NET.wasm",
       "Xceed.Workbooks.NET.as688pqrtd.wasm": "Xceed.Workbooks.NET.wasm",
-      "BlazorDocx.resources.9k54btqtst.wasm": "BlazorDocx.resources.wasm",
-      "BlazorDocx.resources.ghatusbzla.wasm": "BlazorDocx.resources.wasm",
+      "BlazorDocx.resources.1k4duqrwiv.wasm": "BlazorDocx.resources.wasm",
+      "BlazorDocx.resources.fwe28lt1pk.wasm": "BlazorDocx.resources.wasm",
       "dotnet.js": "dotnet.js",
       "dotnet.native.hvg7u8bimp.js": "dotnet.native.js",
       "dotnet.native.3c4wvb350q.wasm": "dotnet.native.wasm",
@@ -116,7 +116,7 @@
       "System.Runtime.InteropServices.JavaScript.era55l3sbb.wasm": "sha256-uo4WQ39eiOB+w/weMzCVCfXQey09VlzpTm+e6aR83IA="
     },
     "assembly": {
-      "BlazorDocx.nxgfnx1cbm.wasm": "sha256-hVGb79DVD6LvdM34yQvE7YvfI95q/lwyunBsbQt80jE=",
+      "BlazorDocx.fxqwce8s44.wasm": "sha256-ravUd31wJSrVlSr917CZXAxFDI66x+K552tNnfLPdsQ=",
       "Blazored.LocalStorage.12n6dz54qr.wasm": "sha256-OaMAAd5n7ORfyur5e3QIyEVKJ76MKIvwbg7/icnnYcU=",
       "FluentValidation.fvee6lf8f0.wasm": "sha256-y2wmu0q0yfh4/O0BN8s/ZnPUFizpBUQu6X5SeIQJjnI=",
       "Microsoft.AspNetCore.Components.Forms.2xyes3k065.wasm": "sha256-RnC/S/N1+AxW/0kaWaSmQoxtNCnzJ5NGlSzA5dTU7oE=",
@@ -205,10 +205,10 @@
     },
     "satelliteResources": {
       "es": {
-        "BlazorDocx.resources.9k54btqtst.wasm": "sha256-KVSmCJmDKDZJCxDs24gLbhYJEV7PRm/HqF2etrqXrNw="
+        "BlazorDocx.resources.1k4duqrwiv.wasm": "sha256-UY4LC9XdbRsLMce52uDKmsGUMYNIOqRPFgQuhvquT4o="
       },
       "fr": {
-        "BlazorDocx.resources.ghatusbzla.wasm": "sha256-VBjF1uKGcMYGSTJNgDN2D5KfmrkZTUAxODRSiyjVqzY="
+        "BlazorDocx.resources.fwe28lt1pk.wasm": "sha256-70PKvryN2XUuelIOciJxHBLe4fxNlE/gmW2mrPgJPhc="
       }
     }
   },
